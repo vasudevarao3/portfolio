@@ -331,6 +331,13 @@ body.light-theme {
   animation: floatImage 4s ease-in-out infinite;
 }
 
+.home_handle img{
+  border-width:5px;
+  border-radius:48%;
+  border-color:#2713fe;
+  z-index:3;
+}
+
 @keyframes floatImage {
   0% {
     transform: translateY(0);
